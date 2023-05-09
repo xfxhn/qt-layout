@@ -1,0 +1,122 @@
+.container {
+    background-color: rgb(236, 65, 65);
+}
+
+
+.left-box {
+    /*background: yellow;*/
+}
+
+.left-box-logo {
+    background-image: url("./resource/wyy.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.left-box-arrow {
+}
+
+.left-box-arrow-left {
+    background-color: rgb(217, 59, 59);
+    border-radius: 10px;
+}
+
+.left-box-arrow-right {
+    background-color: rgb(217, 59, 59);
+    border-radius: 10px;
+}
+
+.left-box-search {
+    background: gray;
+    border-radius: 10px;
+}
+
+.left-box-search-input {
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(225, 62, 62);
+    padding-left: 25px;
+    font-size: 14px;
+    color: rgb(241, 120, 120);
+}
+
+.left-box-search-input::pressed {
+    color: rgb(255, 255, 255);
+}
+
+.left-box-search-icon {
+    background-size: 100% 100%;
+    background: url("./resource/搜索.png") no-repeat;
+}
+
+/*.singIcon {
+    background-size: 100% 100%;
+    background: url("./resource/voice.png") no-repeat;
+    background: rgba(255, 255, 255, 0.5);
+}*/
+
+
+.right-box {
+    /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+.right-box-avator {
+}
+
+.right-box-name {
+    /* background: gray;*/
+    color: white;
+}
+
+.right-box-vip {
+    /* background: gray;*/
+    color: white;
+}
+
+.right-box-skin {
+    background-size: 100% 100%;
+    background: url("./resource/皮肤.png") no-repeat;
+}
+
+.right-box-setting {
+    background-size: 100% 100%;
+    background: url("./resource/设置.png") no-repeat;
+}
+
+.right-box-email {
+    /*background: rgba(0, 0, 0, 0.4);*/
+}
+
+.right-box-email-icon {
+    background-size: 100% 100%;
+    background: url("./resource/邮件.png") no-repeat;
+}
+
+.right-box-email-number {
+    background: white;
+    border-radius: 7px;
+    color: rgb(255, 0, 0);
+    padding: 2px 4px;
+}
+
+
+.right-box-share {
+    /*background-size: 100% 100%;
+    background: url("./resource/mini.png") no-repeat;
+    background: gray;*/
+}
+
+.right-box-reduce {
+    /*    background-size: 100% 100%;
+        background: url("./resource/最小化.png") no-repeat;*/
+}
+
+.right-box-magnify {
+    /* background-size: 100% 100%;
+     background: url("./resource/最大化.png") no-repeat;*/
+}
+
+.right-box-close {
+    /*background-size: 100% 100%;
+    background: url("./resource/关闭.png") no-repeat;*/
+}
